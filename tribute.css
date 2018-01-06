@@ -1,0 +1,39 @@
+body {
+  margin-top: 3rem; }
+  body .container {
+    border-bottom: 2px solid gray;
+    border-radius: 60px;
+    padding-bottom: 50px; }
+  body .custom-list {
+    padding: 0.4rem 2rem;
+    list-style: none;
+    font-size: 1rem;
+    border-top: 0.1px solid #d2d3d6;
+    box-sizing: border-box; }
+  body ul.list-group :nth-child(1) {
+    border-top: 0; }
+  body ul.list-group :nth-child(10) {
+    border-bottom: 0; }
+  body .date {
+    font-weight: 600;
+    font-size: 1.05rem;
+    display: inline-block;
+    white-space: pre; }
+  body .date::after {
+    content: "-  "; }
+  body span {
+    height: inherit; }
+  body .width-mine {
+    width: 60% !important; }
+  body .blockquote {
+    padding-left: 0.8rem;
+    padding-bottom: 40px; }
+    body .blockquote p {
+      font-size: 1.15rem;
+      border-left: 2px solid gray;
+      border-radius: 15px;
+      padding-left: 1.2rem; }
+  body .footer {
+    margin-top: 50px; }
+
+/*# sourceMappingURL=tribute.css.map */
